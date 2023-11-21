@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Confirmation</title>
+ <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(img/dow.jpg);
+    background-size: cover;
+}
+.container{
+    height:200px;
+    width: 100%;
+    max-width:500px;
+    background:rgb(248, 222, 226);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: insert -2px 2px 2px #fff;
+
+
+}
+.container h1{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:#000;
+    text-shadow: 2px 2px 2px white;
+    border-bottom: solid 1px white;
+
+}
+.container p{
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.container a{
+display: flex;
+margin-left:150px;
+}
+@media(max-width:600px){
+        .container{
+            min-width: 280px;
+            height:150px ;
+        }
+        .container h1{
+            font-size: 15px;
+        }
+        .container p{
+            font-size: 12px;
+        }
+        .container a{
+            font-size: 10px ;
+            margin-left: 90px;
+        }
+    }
+ </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Successful!</h1>
+        <p>Thank you for registering.</p>
+        <p>Thank you for joining us!</p>
+        <a href="formindex.html" target="_blank">Resend Response </a>
+    </div>
+</body>
+</html>
